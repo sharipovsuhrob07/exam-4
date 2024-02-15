@@ -1,0 +1,17 @@
+.hero {
+  background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("../../img/hero.png");
+  }
+  
+  .hero__title {
+      padding-top: 258px;
+      padding-bottom: 166px;
+      max-width: 573px;
+    color: #fff;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 150%;
+    letter-spacing: 0.5px;
+  }
+  

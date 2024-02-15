@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./scss/main.css">
+    <title>Document</title>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="header__top">
+        <div class="selects">
+          <select class="header__top_select1">
+            <option value="en">EN</option>
+            <option value="ru">RU</option>
+            <option value="uz">UZ</option>
+          </select>
+          <select class="header__top_select2">
+            <option value="usd">USD</option>
+            <option value="rub">RUB</option>
+            <option value="uzs">UZS</option>
+          </select>
+          <div class="content__search">
+            <input class="input" type="search" autocomplete="off" placeholder="Search query..."/>
+            <div class="search__products"></div>
+          </div>
+        </div>
+        <div class="settings">
+          <a href="#">
+            <p class="setting__myprofile">My profile</p>
+          </a>
+          <a href="#">
+            <p class="setting__items">Items</p>
+          </a>
+          <p class="setting__price">$0.00</p>
+        </div>
+      </div>
+      <div class="header__bottom">
+        <div class="header__bottom_logo">
+          <a href="#"><img src="./img/logo.svg" alt="logo" /></a>
+          <h1 class="header__bottom_logo_title">E-Comm</h1>
+        </div>
+        <ul class="header__bottom_list">
+          <li>
+            <a
+              class="header__bottom_list_item header__bottom_list_item_active"
+              href="#"
+              >HOME</a
+            >
+          </li>
+          <li><a class="header__bottom_list_item" href="#">BAGS</a></li>
+          <li><a class="header__bottom_list_item" href="#">SNEAKERS</a></li>
+          <li><a class="header__bottom_list_item" href="#">BELT</a></li>
+          <li><a class="header__bottom_list_item" href="#">CONTACT</a></li>
+        </ul>
+      </div>
+    </div>
+  </header>
+    <div class="item"></div>
+    <script src="./js/detail.js"></script>
+</body>
+</html>

@@ -1,0 +1,77 @@
+.ads_card_img {
+  width: 300px;
+  height: 200px;
+  object-fit: contain;
+}
+
+.ads__cards {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  left: 110px;
+  top: 650px;
+  padding-bottom: 65px;
+}
+
+.ads_card_title {
+  height: 55px;
+  text-align: left;
+  color: #223263;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%;
+  letter-spacing: 0.5px;
+  padding-top: 29px;
+  padding-left: 52px;
+  padding-bottom: 55px;
+}
+
+.ads_card {
+  width: 417.941px;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+.ads_card:hover {
+  transition: all 0.9s ease;
+  background-color: #e3e3e3;
+}
+
+.ads_card_img {
+  padding-left: 88px;
+}
+
+.ads_card_content_paragraph {
+  color: #9098b1;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0.5px;
+  text-decoration-line: strikethrough;
+}
+
+.ads_card_content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  padding-bottom: 35px;
+}
+
+.ads_card_content_discount {
+  color: #fb7181;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 150%;
+  letter-spacing: 0.5px;
+}
+
+.ads_card_price {
+  color: #40bfff;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 180%;
+  letter-spacing: 0.5px;
+}

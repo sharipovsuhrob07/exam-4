@@ -1,0 +1,88 @@
+footer {
+  margin-top: 1800px;
+  background-color: #bcddfe;
+}
+
+.mini__container {
+  margin-top: 150px;
+}
+
+.footer_logo_title {
+  color: #22262a;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.footer__log {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.footer_logo_text {
+  width: 221px;
+  color: #22262a;
+  font-family: "Proxima Nova";
+  font-size: 12px;
+  font-weight: 400;
+  margin-top: 16px;
+}
+
+.footer_social_media_title {
+  color: #22262a;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 19px;
+}
+
+.footer_social_media_text {
+  width: 198px;
+  color: #22262a;
+  font-family: "Proxima Nova";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.footer_social_media_icons {
+  display: flex;
+  gap: 40px;
+  margin-top: 25px;
+}
+
+.footer_content_title {
+  color: #22262a;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.footer_content_text {
+  color: #22262a;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 148px;
+  margin-top: 19px;
+}
+
+.footer_main{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 320px;
+}
+
+.footer_card_icon{
+    text-align: right;
+    margin-bottom: 50px;
+}
